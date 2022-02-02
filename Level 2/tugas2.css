@@ -1,0 +1,20 @@
+body{
+    background: url(pattern.jpg) white;
+}
+
+h1 {
+    font-style: normal;
+    font-family: cursive;
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+h4{
+    margin-top: 20px;
+    padding-left: 30px;
+}

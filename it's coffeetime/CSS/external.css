@@ -1,0 +1,91 @@
+/* format urutan CSS secara singkat
+body{
+  font-style: italic;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  font family: arial;
+}
+Singkatnya menjadi:
+body{
+  font: italic normal bold 12px/25px arial;
+}*/
+
+body  {
+  background: url(pattern.jpg) white;
+}
+
+h1  {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: cursive;
+  text-align: center;
+  background-image: url(love.jpg);
+  background-color: white;
+  background-repeat: repeat-x;
+}
+
+h2  {
+  text-align: center;
+  font-family: cursive;
+  font-size: 75px;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+
+h3  {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+p {
+  word-spacing: 0px;
+  text-indent: 50px;
+  text-align: justify;
+  font-weight: normal;
+  font-family: arial;
+  line-height: 25px;
+}
+
+dl  {
+  font-weight: normal;
+  font-family: arial;
+}
+
+dt  {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+ul  {
+  font-weight: normal;
+  font-family: arial;
+}
+
+ol  {
+  font-weight: normal;
+  font-family: arial;
+}
+
+table {
+  font-weight: normal;
+  font-family: arial;
+}
+
+form  {
+  font-weight: normal;
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+  font-family: arial;
+  font-style: italic;
+  color: blue;
+  font-weight: bolder;
+}
